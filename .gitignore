@@ -3,3 +3,6 @@
 
 # SourceMap 文件
 *.map
+
+# node_modules
+/node_modules
