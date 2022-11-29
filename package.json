@@ -1,0 +1,23 @@
+{
+  "name": "growth-code",
+  "version": "1.0.0",
+  "description": "全栈应用开发-精益实践代码练习",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trampboy/growth-code.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trampboy/growth-code/issues"
+  },
+  "homepage": "https://github.com/trampboy/growth-code#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
