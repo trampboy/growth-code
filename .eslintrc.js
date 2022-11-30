@@ -19,4 +19,5 @@ module.exports = {
   ],
   rules: {
   },
+  ignorePatterns: ['/node_modules', '/homepage'],
 };
