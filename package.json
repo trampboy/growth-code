@@ -45,6 +45,9 @@
     "supertest": "^6.3.1"
   },
   "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown"
+    "**/*.js": [
+      "eslint --cache --fix",
+      "prettier --write --ignore-unknown"
+    ]
   }
 }
