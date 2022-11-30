@@ -4,21 +4,19 @@ module.exports = {
     commonjs: true,
     es2021: true,
     node: true,
+    "jest/globals": true,
   },
   extends: [
-    'plugin:react/recommended',
-    'airbnb',
-    'prettier',
+    "plugin:react/recommended",
+    "plugin:jest/recommended",
+    "airbnb",
+    "prettier",
   ],
-  overrides: [
-  ],
+  overrides: [],
   parserOptions: {
-    ecmaVersion: 'latest',
+    ecmaVersion: "latest",
   },
-  plugins: [
-    'react',
-  ],
-  rules: {
-  },
-  ignorePatterns: ['/node_modules', '/homepage'],
+  plugins: ["react", "jest"],
+  rules: {},
+  ignorePatterns: ["/node_modules", "/homepage"],
 };
