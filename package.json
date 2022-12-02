@@ -6,7 +6,8 @@
     "start": "pm2 start process.json",
     "dev": "pm2 start process-dev.json",
     "test": "jest",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "deploy": "node ./scripts/deploy"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
     "morgan": "~1.9.1",
+    "node-ssh": "^13.0.0",
     "react": "^18.2.0",
     "selenium-webdriver": "^4.6.1"
   },
