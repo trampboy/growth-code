@@ -1,5 +1,5 @@
 {
-  "name": "weapp",
+  "name": "growth-code",
   "script": "./bin/www",
   "cwd": "./",
   "instances": 2,
